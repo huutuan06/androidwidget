@@ -55,9 +55,9 @@ public class SimpleWidgetProvider extends AppWidgetProvider {
 
 
             // trigger API
-                OneTimeWorkRequest workRequest1 = new OneTimeWorkRequest.Builder(ApiWorker.class)
-                        .build();
-                WorkManager.getInstance(context).enqueue(workRequest1);
+//                OneTimeWorkRequest workRequest1 = new OneTimeWorkRequest.Builder(ApiWorker.class)
+//                        .build();
+//                WorkManager.getInstance(context).enqueue(workRequest1);
 
         }
     }

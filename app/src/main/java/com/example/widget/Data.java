@@ -17,7 +17,7 @@ public class Data {
         return value2;
     }
 
-    public void setAge(int age) {
+    public void setValue2(String value2) {
         this.value2 = value2;
     }
 }
